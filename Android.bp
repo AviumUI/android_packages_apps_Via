@@ -8,5 +8,6 @@ android_app_import {
         enabled: false,
     },
     system_ext_specific: true,
+    overrides: ["Browser2","Jelly"],
 }
 
