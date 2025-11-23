@@ -3,12 +3,10 @@ android_app_import {
     apk: "Via.apk",
     presigned: true, 
     preprocessed: true,
-    privileged: true,
     dex_preopt: {
         enabled: false,
     },
-    skip_preprocessed_apk_checks: true,
-    system_ext_specific: true,
+    product_specific: true,
     overrides: ["Browser2","Jelly"],
 }
 
